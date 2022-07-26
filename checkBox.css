@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #000000;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 50px; 
+    border: 5px solid #FF9F29;
+    border-radius: 10px;
+    
+}
+
+ label  {
+    color:black;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.parent {
+    color:black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.child {
+    margin-left: 25px;
+    
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    color:black;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
